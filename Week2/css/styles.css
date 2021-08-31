@@ -1,0 +1,35 @@
+.navbar-brand{
+	float: left;
+}
+
+#nav-list{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+#Menu-titulo{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+
+#titles{
+	text-align: center;
+	font-weight: bold;
+}
+
+#resumenChiken, #resumenBeef, #resumenSushi{
+	background-color:lightgray;
+	padding: 10px;
+	text-align: justify;
+	margin-bottom: 20px;
+
+}
+
+#paragrafo{
+	padding-right: 2px;
+}
+

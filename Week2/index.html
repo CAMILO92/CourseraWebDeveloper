@@ -1,11 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
 <body>
-	<p>Prueba</p>
+  <header>
+    <nav id="nav-list" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand">Food, LLC</a>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#resumenChiken">
+                <br
+                class="hidden-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#resumenBeef">
+                <br
+                class="hidden-xs">Beef</a>
+            </li>         
+            <li>
+              <a href="#resumenSushi">
+                <br
+                class="hidden-xs">Sushi</a>
+            </li> 
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+    <h2 id="Menu-titulo">Our Menu</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div id="resumenChiken">
+            <p><h3 id="titles">Chicken</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis ornare aliquet. Curabitur at orci quis massa gravida eleifend ut vel mauris. Donec dignissim metus at laoreet rutrum. Curabitur quam nulla, fermentum sed sapien vitae, pharetra ornare magna. Curabitur libero sem, iaculis et tellus et, congue facilisis elit. Sed ultrices purus vel diam tincidunt condimentum. Nam rhoncus dolor porta, elementum metus quis, tristique lectus. Nam dignissim sapien dui, et malesuada diam posuere ac. Quisque tempor ante vitae magna tristique, quis consequat erat consectetur. Duis eu leo porta, bibendum ante at, auctor tortor. Pellentesque pulvinar ultricies dui nec sodales. Duis aliquet, sem vitae lacinia finibus, velit nisl hendrerit diam, ornare porta arcu massa id leo. Aenean vitae auctor arcu. Nam dapibus, orci a accumsan elementum, nisi felis euismod mauris, id accumsan dolor urna at elit.
+
+            Vestibulum posuere ex quis ligula pretium, a pretium mi porttitor. Sed rutrum varius orci, vitae sagittis quam elementum a. Morbi facilisis ipsum nec aliquet semper. Duis sit amet nisi eget metus venenatis fringilla. In hac habitasse platea dictumst. Sed non mauris orci. Pellentesque nisl neque, varius ac metus nec, pretium hendrerit risus. Integer scelerisque gravida augue ac aliquam. Vivamus ultrices sapien vel erat semper tempus. Pellentesque purus mi, ornare quis velit hendrerit, pulvinar hendrerit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt rhoncus magna id volutpat. Sed sollicitudin velit non dignissim pulvinar. Nulla commodo efficitur faucibus. Aenean semper ut risus in scelerisque. <a href="#nav-list" class="visible-xs">Back to the menu</a></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div id="resumenBeef">
+            <p><h3 id="titles">Beef</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis ornare aliquet. Curabitur at orci quis massa gravida eleifend ut vel mauris. Donec dignissim metus at laoreet rutrum. Curabitur quam nulla, fermentum sed sapien vitae, pharetra ornare magna. Curabitur libero sem, iaculis et tellus et, congue facilisis elit. Sed ultrices purus vel diam tincidunt condimentum. Nam rhoncus dolor porta, elementum metus quis, tristique lectus. Nam dignissim sapien dui, et malesuada diam posuere ac. Quisque tempor ante vitae magna tristique, quis consequat erat consectetur. Duis eu leo porta, bibendum ante at, auctor tortor. Pellentesque pulvinar ultricies dui nec sodales. Duis aliquet, sem vitae lacinia finibus, velit nisl hendrerit diam, ornare porta arcu massa id leo. Aenean vitae auctor arcu. Nam dapibus, orci a accumsan elementum, nisi felis euismod mauris, id accumsan dolor urna at elit.
+
+            Vestibulum posuere ex quis ligula pretium, a pretium mi porttitor. Sed rutrum varius orci, vitae sagittis quam elementum a. Morbi facilisis ipsum nec aliquet semper. Duis sit amet nisi eget metus venenatis fringilla. In hac habitasse platea dictumst. Sed non mauris orci. Pellentesque nisl neque, varius ac metus nec, pretium hendrerit risus. Integer scelerisque gravida augue ac aliquam. Vivamus ultrices sapien vel erat semper tempus. Pellentesque purus mi, ornare quis velit hendrerit, pulvinar hendrerit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt rhoncus magna id volutpat. Sed sollicitudin velit non dignissim pulvinar. Nulla commodo efficitur faucibus. Aenean semper ut risus in scelerisque. <a href="#nav-list" class="visible-xs">Back to the menu</a></p></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <div id="resumenSushi">
+            <p><h3 id="titles">Sushi</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis ornare aliquet. Curabitur at orci quis massa gravida eleifend ut vel mauris. Donec dignissim metus at laoreet rutrum. Curabitur quam nulla, fermentum sed sapien vitae, pharetra ornare magna. Curabitur libero sem, iaculis et tellus et, congue facilisis elit. Sed ultrices purus vel diam tincidunt condimentum. Nam rhoncus dolor porta, elementum metus quis, tristique lectus. Nam dignissim sapien dui, et malesuada diam posuere ac. Quisque tempor ante vitae magna tristique, quis consequat erat consectetur. Duis eu leo porta, bibendum ante at, auctor tortor. Pellentesque pulvinar ultricies dui nec sodales. Duis aliquet, sem vitae lacinia finibus, velit nisl hendrerit diam, ornare porta arcu massa id leo. Aenean vitae auctor arcu. Nam dapibus, orci a accumsan elementum, nisi felis euismod mauris, id accumsan dolor urna at elit.
+
+            Vestibulum posuere ex quis ligula pretium, a pretium mi porttitor. Sed rutrum varius orci, vitae sagittis quam elementum a. Morbi facilisis ipsum nec aliquet semper. Duis sit amet nisi eget metus venenatis fringilla. In hac habitasse platea dictumst. Sed non mauris orci. Pellentesque nisl neque, varius ac metus nec, pretium hendrerit risus. Integer scelerisque gravida augue ac aliquam. Vivamus ultrices sapien vel erat semper tempus. Pellentesque purus mi, ornare quis velit hendrerit, pulvinar hendrerit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt rhoncus magna id volutpat. Sed sollicitudin velit non dignissim pulvinar. Nulla commodo efficitur faucibus. Aenean semper ut risus in scelerisque. <a href="#nav-list" class="visible-xs">Back to the menu</a></p></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>-->
+    
 </body>
 </html>
